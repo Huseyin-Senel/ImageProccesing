@@ -5,7 +5,6 @@
 
 function SIFT(directory, selectImage)
 
-    directory = "Dataset";
     imagefiles = dir(directory+'\*.jpg');      
     imageList = {};
     grayImageList = {};
